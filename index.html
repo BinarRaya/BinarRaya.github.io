@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
       <div class="container">
@@ -34,14 +34,6 @@
                 aria-current="page"
                 href="#Home"
                 >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link link-custom mx-lg-2 mb-1"
-                aria-current="page"
-                href="#About"
-                >About</a
               >
             </li>
             <li class="nav-item">
@@ -74,8 +66,37 @@
     </nav>
     <!-- end of NavBar -->
 
+    <!-- Home -->
+     <section id="Home" class="full-height">
+      <div class="container">
+        <div class="row" data-aos="fade-down">
+          <div class="col-md-7 order-1 order-md-0">
+            <div class="hero-text">
+              <div class="hero-text-start">Halo semua😊, saya</div>
+              <div class="hero-text-name">Binar Raya</div>
+              <div class="hero-text-end">Mahasiswa Teknik Mesin</div>
+              <div class="hero-link">
+                <a href="#Portofolio" class="btn btn-brand me-3 mb-3 d-block d-md-inline">
+                  Jelajahi Portofolio Saya
+                </a>
+                <a href="#Contact" class="link-custom">Hubungi saya</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 order-0 order-md-1">
+            <div class="hero-image">
+              <img src="assets/images/WhatsApp Image 2025-01-29 at 23.40.12.jpeg" alt="Binar Raya" width="250" class="rounded-circle">
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- End Of Home -->
+
     <!-- js -->
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
