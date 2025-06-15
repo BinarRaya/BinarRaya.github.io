@@ -178,3 +178,27 @@ a {
     padding: 100px 0;
     text-align: center;
 }
+
+/* contact */
+#Contact {
+    background-color: var(--background-color);
+    padding: 100px 0;
+}
+
+#Contact .link-contact {
+    color: var(--tertiary-color);
+}
+
+#Contact .link-contact:hover {
+    color: var(--primary-color);
+}
+
+#Contact .form-control {
+    background-color: transparent;
+    border-color: var(--tertiary-color);
+}
+
+#Contact .form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
